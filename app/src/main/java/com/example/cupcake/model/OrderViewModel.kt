@@ -10,6 +10,7 @@ import java.util.*
 
 private const val PricePerCupcake = 2.00
 
+// Price the pickup
 private const val PriceForSameDayPickup = 3.00
 
 class OrderViewModel : ViewModel() {
@@ -30,7 +31,6 @@ class OrderViewModel : ViewModel() {
     val price: LiveData<String> = Transformations.map(_price) {
         NumberFormat.getCurrencyInstance().format(it)
     }
-
 
     init {
         resetOrder()
