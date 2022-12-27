@@ -10,6 +10,7 @@ import java.util.*
 
 private const val PricePerCupcake = 2.00
 
+// Price the pickup
 private const val PriceForSameDayPickup = 3.00
 
 class OrderViewModel : ViewModel() {
