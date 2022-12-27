@@ -31,7 +31,6 @@ class OrderViewModel : ViewModel() {
         NumberFormat.getCurrencyInstance().format(it)
     }
 
-
     init {
         resetOrder()
     }
