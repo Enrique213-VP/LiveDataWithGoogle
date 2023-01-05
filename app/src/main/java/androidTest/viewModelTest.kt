@@ -1,0 +1,5 @@
+package androidTest
+
+class viewModelTest {
+
+}
